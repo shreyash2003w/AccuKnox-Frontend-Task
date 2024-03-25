@@ -20,7 +20,7 @@ Ensure you have Node.js installed on your machine.
 
 # Installation
 Clone the repository:
-git clone https://github.com/yourusername/tintopia.git
+git clone https://github.com/shreyash2003w/AccuKnox-Frontend-Task.git
 
 Navigate to the project directory:
 cd Directory name

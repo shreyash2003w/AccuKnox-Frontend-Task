@@ -36,7 +36,28 @@ This runs the app in development mode.
 Contributing
 We welcome contributions to the Tintopia project. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-Contact
-Your Name - 
+# Dataset Overview
+The colors.json file is a crucial part of our project, serving as the backbone for the color palette functionalities, including the search feature and the colorPalette component. This JSON dataset contains a curated list of colors, each with details regarding its name, hexadecimal code.
+# Structure
+[
+  {
+    "name": "INDIANRED",
+    "hex": "#CD5C5C",
+    "rgb": "RGB(205, 92, 92)",
+    "families": ["red", "brown"]
+  },
+  {
+    "name": "LIGHTCORAL",
+    "hex": "#F08080",
+    "rgb": "RGB(240, 128, 128)",
+    "families": ["red", "pink", "coral", "light"]
+  }
+]
 
-Project Link: https://github.com/yourusername/tintopia
+# Usage
+This dataset powers the SearchPage and ColorPalette components, allowing users to explore and find colors based on name. If modifications are made to the dataset structure, corresponding updates must be applied to these components to ensure consistency and functionality.
+
+Contact - shreyashwaghmare2003@gmail.com
+
+Project Link: https://github.com/shreyash2003w/AccuKnox-Frontend-Task.git
+Live - https://tintopia.netlify.app/

@@ -7,7 +7,9 @@ const SearchPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredColors = colors.filter((color) =>
-    color.name.toLowerCase().includes(searchQuery.trim().toLowerCase())
+    color.name.toLowerCase().includes(searchQuery.trim().toLowerCase())  ||
+    color.hex.toLowerCase().includes(searchQuery.trim().toLowerCase())
+
   );
 
   return (

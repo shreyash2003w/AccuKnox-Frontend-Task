@@ -55,7 +55,7 @@ The colors.json file is a crucial part of our project, serving as the backbone f
 ]
 
 # Usage
-This dataset powers the SearchPage and ColorPalette components, allowing users to explore and find colors based on name. If modifications are made to the dataset structure, corresponding updates must be applied to these components to ensure consistency and functionality.
+This dataset powers the SearchPage and ColorPalette components, allowing users to explore and find colors based on name or hex code. If modifications are made to the dataset structure, corresponding updates must be applied to these components to ensure consistency and functionality.
 
 Contact - shreyashwaghmare2003@gmail.com
 
